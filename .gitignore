@@ -1,0 +1,24 @@
+# FastF1 Cache (Telemetry data & API cache - large binary files)
+f1_cache/
+*.sqlite
+*.ff1pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
