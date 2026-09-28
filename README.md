@@ -1,4 +1,4 @@
-# 🏎️ Apex AI - Motorsport Analytics & Race Strategy Predictor
+# Apex AI - Motorsport Analytics & Race Strategy Predictor
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Framework-Flask-black.svg)](https://flask.palletsprojects.com/)
@@ -10,34 +10,34 @@
 
 ---
 
-## 📌 Key Features
+## Key Features
 
-- **🤖 ML-Powered Tire Degradation Modeling**:
+- **ML-Powered Tire Degradation Modeling**:
   - Filters out Safety Car (SC), Virtual Safety Car (VSC), and out-laps.
   - Trains a `RandomForestRegressor` on stint lap times vs. tire life to capture non-linear thermal degradation.
   - Automatically calculates degradation rate ($\Delta$ seconds/lap) and suggests tactical decisions (pit window opening, undercut viability, or overcut tire preservation).
 
-- **🗺️ Interactive GPS Track Maps & Zone Overlays**:
+- **Interactive GPS Track Maps & Zone Overlays**:
   - Reconstructs 2D track layout from driver coordinates ($X, Y$).
   - Overlays specific high-stress racing events: braking zones and full-throttle acceleration points.
   - Visualizes driver racing line alongside the session's overall fastest lap.
 
-- **📈 High-Resolution Telemetry Traces**:
+- **High-Resolution Telemetry Traces**:
   - Synchronized distance-based telemetry plots: **Speed (km/h)**, **Throttle %**, **Brake application**, and **Gear shifts**.
 
-- **🏎️ Driver Profiles & Chassis Specs**:
+- **Driver Profiles & Chassis Specs**:
   - Dynamic driver headshots, official team livery color branding, and powertrain specs (chassis model, engine manufacturer, hybrid energy split, minimum weight regulations).
 
-- **🏁 Race Classification Leaderboards**:
+- **Race Classification Leaderboards**:
   - Live session finishing orders, team classifications, driver status (Finished, DNF, +Laps), and championship points awarded.
 
-- **🎮 Sim-Racing Telemetry Uploader**:
+- **Sim-Racing Telemetry Uploader**:
   - Upload custom CSV telemetry from sim-racing titles (*iRacing, Assetto Corsa, F1 23/24, rFactor 2*).
   - Automatically runs regression to predict stint performance and degradation trends.
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ```text
 ┌────────────────────────────────────────────────────────┐
@@ -59,7 +59,7 @@
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -92,7 +92,7 @@
 
 ---
 
-## 🚦 Running the Application
+## Running the Application
 
 1. **Launch the Flask server**:
    ```bash
@@ -107,7 +107,7 @@
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### 1. Telemetry & Strategy Analysis
 - **URL**: `/api/analyze`
@@ -150,7 +150,7 @@
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 apex-ai/
@@ -174,7 +174,7 @@ apex-ai/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend**: Python, Flask, Flask-CORS
 - **Motorsport Data Engine**: FastF1, Pandas, NumPy
@@ -183,6 +183,6 @@ apex-ai/
 
 ---
 
-## 📄 License
+## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
